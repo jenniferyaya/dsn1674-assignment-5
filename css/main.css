@@ -8,5 +8,28 @@ html {
 
 header {
 	background-color: #d05c2e;
+	padding: 15px;
+	color: #fff;
+	text-align: center;
 }
 
+h1 {
+	font-size: 2.5em
+}
+
+nav li {
+	list-style-type: none;
+	display: inline-block;
+	padding: 0.5em;
+	font-size: 1em;
+}
+
+nav li:hover {
+	background-color: #a93f35;
+}
+
+.first-one {
+	float: left;
+	width: 33%;
+	margin-top: 15px;
+}
