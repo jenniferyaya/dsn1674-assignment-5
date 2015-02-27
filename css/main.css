@@ -90,6 +90,29 @@ figure {
 	width: 50%;
 }
 
-.caption-float {
-	clear: both;
+.peanuts {
+	float: left;
+	width: 33%;
+	margin-bottom: 15px;
+}
+
+.beans {
+	float: left;
+	width: 33%;
+	margin-bottom: 15px;
+}
+
+.lentils {
+	float: left;
+	width: 33%;
+}
+
+
+
+
+
+.copyright {
+background-color: #d05c2e;
+color: #dedede;
+padding: 15px;
 }
