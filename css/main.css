@@ -12,14 +12,24 @@ img {
 
 header {
 	background-color: #d05c2e;
-	padding: 15px;
 	color: #fff;
 	text-align: center;
 	margin-bottom: 15px;
 }
 
+.grain-l {
+	width: 7%;
+	float: left;
+}
+
+.grain-r {
+	width: 7%;
+	float: right;
+}
+
 h1 {
-	font-size: 2.5em
+	font-size: 2.5em;
+	padding-top: 10px;
 }
 
 nav li {
@@ -44,6 +54,7 @@ nav li:hover {
 	float: right;
 	width: 50%;
 	margin-bottom: 15px;
+	margin-top: 20px;
 	border: 2.5px solid #dedede;
 }
 
@@ -56,7 +67,7 @@ nav li:hover {
 }
 
 .p2 {
-	clear:left;
+	clear:both;
 }
 
 h2 {
@@ -105,9 +116,13 @@ figure {
 .lentils {
 	float: left;
 	width: 33%;
+	margin-top: 15px;
+	margin-bottom: 15px;
 }
 
-
+div {
+	background-color: #fff;
+}
 
 
 
