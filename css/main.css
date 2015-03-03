@@ -10,11 +10,13 @@ img {
 	width: 100%;
 }
 
+
 header {
 	background-color: #d05c2e;
 	color: #fff;
 	text-align: center;
 	margin-bottom: 15px;
+	clear: both;
 }
 
 .grain-l {
@@ -30,16 +32,24 @@ header {
 h1 {
 	font-size: 2.5em;
 	padding-top: 10px;
+	font-family: 'Lora', serif;
+	font-weight: bold;
 }
 
-nav li {
+li {
+	padding-right: 4em;
+	border: 0.10rem solid black;
+}
+
+ol li {
 	list-style-type: none;
 	display: inline-block;
-	padding: 0.5em;
+	padding-bottom: 2rem;
 	font-size: 1em;
+	font-family: 'Lora', serif;
 }
 
-nav li:hover {
+ol li:hover {
 	background-color: #a93f35;
 }
 
@@ -68,6 +78,9 @@ nav li:hover {
 
 .p2 {
 	clear:both;
+	font-size: 16px;
+	line-height: 19px;
+	font-family: 'Lora', serif;
 }
 
 h2 {
@@ -76,11 +89,13 @@ h2 {
 	color: #fff;
 	padding: 15px;
 	clear: left;
+	font-family: 'Lora', serif;
 }
 
 h3 {
 	padding: 10px;
 	text-align: center;
+	font-family: 'Lora', serif;
 }
 
 figure {
