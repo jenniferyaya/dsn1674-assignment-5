@@ -10,14 +10,44 @@ img {
 	width: 100%;
 }
 
+figure {
+	background-color: #dc8252;
+	}
 
 header {
 	background-color: #d05c2e;
 	color: #fff;
 	text-align: center;
 	margin-bottom: 15px;
+	padding: 1em;
 	clear: both;
 }
+
+h1 {
+	font-size: 2.5em;
+	padding-top: 10px;
+	font-family: 'Lora', serif;
+	font-weight: bold;
+	display: block;
+}
+
+li {
+	padding: 1em;
+	border: 0.10rem solid black;
+}
+
+ol li {
+	list-style-type: none;
+	display: inline-block;
+	font-size: 1em;
+	font-family: 'Lora', serif;
+	width: 33.333%;
+}
+
+ol li: hover {
+	background-color: #a93f35;
+}
+
 
 .grain-l {
 	width: 7%;
@@ -29,29 +59,32 @@ header {
 	float: right;
 }
 
-h1 {
-	font-size: 2.5em;
-	padding-top: 10px;
+
+
+
+
+.grains {
 	font-family: 'Lora', serif;
-	font-weight: bold;
-}
-
-li {
-	padding-right: 4em;
-	border: 0.10rem solid black;
-}
-
-ol li {
-	list-style-type: none;
-	display: inline-block;
-	padding-bottom: 2rem;
 	font-size: 1em;
-	font-family: 'Lora', serif;
 }
 
-ol li:hover {
-	background-color: #a93f35;
+.caption-oats {
+	color: #fff;
+	text-align: center;
 }
+
+.caption-rice {
+	color: #fff;
+	text-align: center;
+}
+
+.caption-corn {
+	color: #fff;
+	text-align: center;
+	padding: 0em;
+	margin: 0em;
+}
+
 
 .first-one {
 	float: left;
@@ -62,7 +95,7 @@ ol li:hover {
 
 .cereals {
 	float: right;
-	width: 50%;
+	width: 30%;
 	margin-bottom: 15px;
 	margin-top: 20px;
 	border: 2.5px solid #dedede;
@@ -70,10 +103,10 @@ ol li:hover {
 
 .quinoa {
 	float: right;
-	width: 50%;
+	width: 30%;
 	clear: right;
 	border: 2.5px solid #dedede;
-	margin-bottom: 15px;
+	margin-bottom: 2em;
 }
 
 .p2 {
@@ -87,29 +120,46 @@ h2 {
 	background-color: #dc8252;
 	text-align: center;
 	color: #fff;
-	padding: 15px;
-	clear: left;
+	padding-top: 1em;
+	clear: both;
 	font-family: 'Lora', serif;
-}
-
-h3 {
-	padding: 10px;
-	text-align: center;
-	font-family: 'Lora', serif;
+	margin: 0em;
 }
 
 figure {
-	margin: 20px;
+	margin: 0em;
+}
+
+#parent {
+	background-color: black;
+	overflow: hidden;
 }
 
 .corn {
-	float: none;
 	width: 100%;
+	clear: both;
+	margin-top: 2em;
+	margin-bottom: 2em;
+}
+
+.corn-space {
+	margin: 0em;
+	padding: 0em;
+}
+
+.fl{
+	float: left;
+	width: 50%;
 }
 
 .float-l {
 	float: left;
 	width: 50%;
+	clear: right;
+}
+
+.iw {
+	width: 75%;
 }
 
 .float-r {
@@ -117,27 +167,33 @@ figure {
 	width: 50%;
 }
 
+
+ul {
+	list-style-type: none;
+}
+
+h3 {
+background-color: #d05c2e;
+margin: 0em;
+padding: 0em;
+text-align: center;
+font-family: 'Lora', serif;
+}
+
 .peanuts {
 	float: left;
-	width: 33%;
 	margin-bottom: 15px;
 }
 
 .beans {
 	float: left;
-	width: 33%;
 	margin-bottom: 15px;
 }
 
 .lentils {
 	float: left;
-	width: 33%;
 	margin-top: 15px;
 	margin-bottom: 15px;
-}
-
-div {
-	background-color: #fff;
 }
 
 
@@ -146,4 +202,9 @@ div {
 background-color: #d05c2e;
 color: #dedede;
 padding: 15px;
+}
+
+footer {
+	clear: both;
+	text-align: center;
 }
