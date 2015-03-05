@@ -6,6 +6,11 @@ html {
 	box-sizing: inherit;
 }
 
+body {
+	padding: 0em;
+	margin: 0em;
+}
+
 img {
 	width: 100%;
 }
@@ -31,9 +36,11 @@ h1 {
 	display: block;
 }
 
-li {
+.nav {
 	padding: 1em;
 	border: 0.10rem solid black;
+	margin: 0em;
+	padding: 1em;
 }
 
 ol li {
@@ -48,7 +55,6 @@ ol li: hover {
 	background-color: #a93f35;
 }
 
-
 .grain-l {
 	width: 7%;
 	float: left;
@@ -62,27 +68,50 @@ ol li: hover {
 
 
 
-
+div {
+	background-color: #a93f35;
+	padding-top: 0em;
+}
 .grains {
 	font-family: 'Lora', serif;
 	font-size: 1em;
+	clear: right;
 }
 
 .caption-oats {
 	color: #fff;
 	text-align: center;
+	padding: 0em;
+	margin-bottom: 1em;
+	margin-top: 1em;
+	padding-bottom: 1em;
+	font-family: 'Lora', serif;
+	font-weight: bold;
+	font-size: 1em;
 }
 
 .caption-rice {
 	color: #fff;
 	text-align: center;
+	padding: 0em;
+	margin-bottom: 1em;
+	margin-top: 1em;
+	padding-bottom: 1em;
+	font-family: 'Lora', serif;
+	font-weight: bold;
+	font-size: 1em;
 }
 
 .caption-corn {
 	color: #fff;
 	text-align: center;
 	padding: 0em;
-	margin: 0em;
+	margin-bottom: 1em;
+	margin-top: 1em;
+	padding-bottom: 1em;
+	font-family: 'Lora', serif;
+	font-weight: bold;
+	font-size: 1em;
 }
 
 
@@ -110,10 +139,11 @@ ol li: hover {
 }
 
 .p2 {
-	clear:both;
+	clear: left;
 	font-size: 16px;
 	line-height: 19px;
 	font-family: 'Lora', serif;
+	margin-bottom: 2em;
 }
 
 h2 {
@@ -138,64 +168,84 @@ figure {
 .corn {
 	width: 100%;
 	clear: both;
-	margin-top: 2em;
-	margin-bottom: 2em;
+	padding-top: 2em;
 }
 
 .corn-space {
 	margin: 0em;
-	padding: 0em;
+	padding: 1em;
 }
 
 .fl{
 	float: left;
 	width: 50%;
+	margin: 0em;
+	padding: 1em;
 }
 
 .float-l {
 	float: left;
-	width: 50%;
+	width: 100%;
 	clear: right;
 }
 
 .iw {
-	width: 75%;
+	width: 100%;
 }
 
 .float-r {
 	float: right;
 	width: 50%;
+	margin: 0em;
+	padding: 1em 1em 1em 0em;
 }
+
+
+
+
 
 
 ul {
 	list-style-type: none;
+	padding-left: 0.5em;
 }
 
 h3 {
-background-color: #d05c2e;
 margin: 0em;
-padding: 0em;
+padding: 1em 1em 1em 0em;
 text-align: center;
 font-family: 'Lora', serif;
+font-size: 2em;
+clear: both;
 }
 
 .peanuts {
 	float: left;
-	margin-bottom: 15px;
+	margin-bottom: 1em;
+	margin-right: 2em;
+	width: 30%;
 }
 
+}
 .beans {
 	float: left;
-	margin-bottom: 15px;
+	margin-bottom: 1em;
+	margin-right: 2em;
+	width: 30%;
 }
 
 .lentils {
 	float: left;
-	margin-top: 15px;
-	margin-bottom: 15px;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	margin-right: 2em;
+	width: 30%;
 }
 
+.peanuts-p, .beans-p, .lentils-p {
+	font-family: 'Lora', serif;
+	font-style: italic;
+}
 
 
 .copyright {
