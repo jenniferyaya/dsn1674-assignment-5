@@ -12,7 +12,8 @@ body {
 }
 
 img {
-	width: 100%;
+	width: 30%;
+	float: left;
 }
 
 figure {
@@ -51,7 +52,7 @@ ol li {
 	width: 33.333%;
 }
 
-ol li: hover {
+ol li:hover {
 	background-color: #a93f35;
 }
 
@@ -67,10 +68,6 @@ ol li: hover {
 
 
 
-
-div {
-	background-color: #a93f35;
-	padding-top: 0em;
 }
 .grains {
 	font-family: 'Lora', serif;
@@ -107,7 +104,6 @@ div {
 	text-align: center;
 	padding: 0em;
 	margin-bottom: 1em;
-	margin-top: 1em;
 	padding-bottom: 1em;
 	font-family: 'Lora', serif;
 	font-weight: bold;
@@ -115,11 +111,17 @@ div {
 }
 
 
+div {
+	background-color: #dc8252;
+	padding: 1em 1em 19em 1em;
+}
+
 .first-one {
 	float: left;
 	width: 33%;
 	margin-right: 15px;
 	margin-bottom: 15px;
+	margin-left: 0.5em;
 }
 
 .cereals {
@@ -128,6 +130,7 @@ div {
 	margin-bottom: 15px;
 	margin-top: 20px;
 	border: 2.5px solid #dedede;
+	margin-left: 05em;
 }
 
 .quinoa {
@@ -136,6 +139,7 @@ div {
 	clear: right;
 	border: 2.5px solid #dedede;
 	margin-bottom: 2em;
+	margin-left: 0.5em;
 }
 
 .p2 {
@@ -143,14 +147,15 @@ div {
 	font-size: 16px;
 	line-height: 19px;
 	font-family: 'Lora', serif;
-	margin-bottom: 2em;
+	margin-bottom: 6em;
+	margin-left: 0.5em;
 }
 
 h2 {
 	background-color: #dc8252;
 	text-align: center;
 	color: #fff;
-	padding-top: 1em;
+	padding-top: 0;
 	clear: both;
 	font-family: 'Lora', serif;
 	margin: 0em;
@@ -160,27 +165,23 @@ figure {
 	margin: 0em;
 }
 
-#parent {
-	background-color: black;
-	overflow: hidden;
-}
-
 .corn {
 	width: 100%;
 	clear: both;
 	padding-top: 2em;
+	padding-bottom: 1em;
 }
 
 .corn-space {
 	margin: 0em;
-	padding: 1em;
+	padding-top: 2em;
 }
 
 .fl{
 	float: left;
 	width: 50%;
 	margin: 0em;
-	padding: 1em;
+	padding: 0em;
 }
 
 .float-l {
@@ -191,13 +192,13 @@ figure {
 
 .iw {
 	width: 100%;
+	padding-bottom: 1em;
 }
 
 .float-r {
 	float: right;
 	width: 50%;
 	margin: 0em;
-	padding: 1em 1em 1em 0em;
 }
 
 
@@ -220,7 +221,7 @@ clear: both;
 }
 
 .peanuts {
-	float: left;
+	clear: both;
 	margin-bottom: 1em;
 	margin-right: 2em;
 	width: 30%;
